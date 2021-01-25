@@ -1,0 +1,116 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #EB910B;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 1px;
+    
+    
+}
+
+p { 
+
+    font-style: italic;
+    
+    
+}
+
+a {color:rebeccapurple;}
+
+#page {
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color:burlywood;
+    font-size: 9px;
+    
+}
+
+#thead {
+   
+
+}
+.intro {
+    
+    border:5;
+    border-style:dashed;
+    border-color:rgba(185, 163, 34, 0.46);
+    color: brown;
+    text-align: left; 
+    height:320px;
+    width:250px;
+    margin-left:410px;
+    margin-top: 20px;
+    
+   
+   
+    
+}
+
+
+a {
+    color:#C5C73B;
+}
+
+ main {
+    display: block;
+    border-color:rgba(185, 163, 34, 0.46);
+    color: brown;
+    text-align: center; 
+    height:100px;
+    width:250px;
+    margin-top: -300px;
+    margin-left:680px;
+    margin-bottom:1000px;
+    
+   
+
+}
+
+body {
+    background-color: rgba(247, 237, 205, 0.13);
+    background-image: url('bookPage.jpg');
+        background-position-x: 300px;
+        background-position-y: 100px;
+        background-repeat: no-repeat;
+        background-size: 750px ;
+    
+
+}
+img {
+    height: 100px;
+    width: 100px;
+    
+}
+#dog {
+    margin-left: 520px;
+    
+    
+}
+
+#farmers {
+    margin-left : 50px;
+}
+
+#hens, #fence {
+    height: 50px;
+    width: 50px;
+    
+}
+#back {
+    width: 25px;
+    height:35px;
+}
+
+#cover {
+    width:1000px;
+    height:300px;
+    
+}
+#btn {
+    border: 1;
+    border-color: yellowgreen;
+    background-color: rgba(181, 236, 236, 0.43);
+    width:100px;
+    height:25px;
+    border-radius: 8px;
+}

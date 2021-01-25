@@ -1,0 +1,122 @@
+ h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: gold;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 1px;
+        
+        
+    }
+    
+    p { 
+    
+        font-style: italic;
+        
+    }
+    
+    a {color:rebeccapurple;}
+    
+    #page {
+        padding-top: 10px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:burlywood;
+        font-size: 9px;
+        
+    }
+    
+    #thead {
+       
+    
+    }
+    table {
+        
+        border:5;
+        border-style:dashed;
+        border-color:rgba(185, 163, 34, 0.46);
+        color: brown;
+        text-align: left; 
+        margin-left: 500px;
+        margin-top: 50px;   
+        height:350px;
+        width:400px;
+        
+       
+       
+        
+    }
+    
+    #choice {
+        padding-top: 8px;
+        text-align: left;
+        padding-left: 25px;
+        padding-bottom: 5px;
+    }
+    
+    #build {
+        text-align: left;
+        padding-top:5px;
+        padding-left: 25px;
+        text-align: left;
+    
+    }
+    a {
+        color:#C5C73B;
+    }
+    
+    main {
+        display: block;
+        border-color:rgba(185, 163, 34, 0.46);
+        color: brown;
+        text-align: center; 
+        height:100px;
+        width:250px;
+        margin-top: -300px;
+        margin-left:680px;
+        margin-bottom:1000px;
+        
+       
+    
+    }
+    
+    body {
+        background-color: rgba(247, 237, 205, 0.13);
+        background-image: url('bookPage.jpg');
+        background-position-x: 300px;
+        background-position-y: 100px;
+        background-repeat: no-repeat;
+        background-size: 750px ;
+    
+    }
+    img {
+        height: 100px;
+        width: 100px;
+        
+    }
+    #dog {
+        margin-left: 520px;
+        
+        
+    }
+    
+    #farmers {
+        margin-left : 50px;
+    }
+    
+    #hens, #fence {
+        height: 100px;
+        width: 100px;
+        
+    }
+#back {
+    width: 25px;
+    height:35px;
+}
+
+#btn {
+    border: 1;
+    border-color: yellowgreen;
+    background-color: rgba(181, 236, 236, 0.43);
+    width:100px;
+    height:25px;
+    border-radius: 8px;
+}

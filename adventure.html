@@ -5,26 +5,194 @@
     <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';"> -->
     <title>Adventure</title>
     
-   <link rel="stylesheet" type="css" href="/css/style.css"> 
+  <!-- <link rel="stylesheet" type="css" href="./style.css"> -->
+   <!--<link rel="icon" href="data:;base64,iVBORw0KGgo="> -->
 
 </head>
 <body>
-    <h1>
-        Welcome to the Adventure Page!
+        <h1>
+                Welcome to the Adventure of Lopex and the Farmers
+            
+            </h1>
+            <img src="dog.jpg" alt="white dog" id="dog"></img>
+            <img src="farmers.png" alt="Farmers" id="farmers"></img>
+      
     
-    </h1>
+    <table class="intro">
+        <thead id="tableHead" > 
+            <h1>
+        <tr>
+            <td id="page">
+                Page 1
+           
+            
+            </td>
+        
+        </thead>
+            <td>
+                    <p>
+                            "Lopex is a sweet white dog that lived back in the farm.<br>
+                             One day the homeowners forgotto feed Lopex.
+                             <br>Lopex starved and ate the homeowners chickens. <br>
+                             What should the homeowners do? "
+                    
+                        </p>
+                       
+            </td>
+            
+           
+        </tr>
+        </table>
+       
+               <main >
+                        
+
+                                     <h4> <img src = "hens.jpg" alt="hens" id="hens"></img>
+                                        <label>
+                                                <i><strong> Buy two chickens</strong> </i>node
+
+                                        </label>
+                                        <a href="/buy">  <i><strong><input type="button" value="Choice: 1" id = "btn"/></a><br>
+                                        
+                                             
+                                    
+                                         </h4>
+                                             <h4 id = "build"> <img src = "fence.png" alt="hens" id="fence"></img>
+                                                <label><i><strong></strong>Build fence for chickens</strong> </i></label>
+                                                <a href="/build">  <input type="button" value="Choice: 2" id = "btn"/></a>
+                                             </h4>
+                                             <a href = "/welcome"><img src = "back.png" alt="back to home" id="back"></img></a>
+                                            
+                                            </main>
+                             
+
     
-    <p>
-        "Lopex is a sweet white dog that lived back in the farm.<br>
-         One day the homeowners forgotto feed Lopex.
-         <br>Lopex starved and ate the homeowners chickens. <br>
-         What should the homeowners do? "
+  
+    <style>
+    h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #EB910B;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 1px;    
+}
 
-    </p>
-    <hr>
-    <i><strong>Choice 1:</strong> </i><a href="/buy">  Buy two new chickens</a><br>
+ p { 
+    font-style: italic;
+    color:#5F5647;
+    box-shadow: 0 6px 12px 0 rgba(87, 83, 83, 0.47); /* this adds the "card" effect */
+    border-bottom-left-radius: 10px;
+    margin-left: 400px;
+    padding:20px 20px;
+    height: 250px;
+    width:200px;
+    
+    
+    
+}
 
-    <i><strong>Choice 2:</strong></i><a href="/build">  Build fence around the chicken house</a>
 
 
+#page {
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    color:burlywood;
+    font-size: 9px;
+    padding-left: 400px;
+}
+
+
+intro {
+    
+    border:5;
+    border-style:dashed;
+    border-color:rgba(185, 163, 34, 0.46);
+    color: brown;
+    text-align: left; 
+    height:320px;
+    width:250px;
+    margin-left:410px;
+    margin-top: 20px;
+    
+   
+   
+    
+}
+
+
+a {
+    color:#C5C73B;
+}
+
+ main {
+    display: block;
+    border-color:rgba(185, 163, 34, 0.46);
+    color: brown;
+    text-align: center; 
+    height:100px;
+    width:250px;
+    margin-top: -300px;
+    margin-left:680px;
+    margin-bottom:1000px;
+    
+   
+
+}
+
+body {
+    background-color: rgba(247, 237, 205, 0.13);
+    background-image: url('bookPage.jpg');
+        background-position-x: 300px;
+        background-position-y: 100px;
+        background-repeat: no-repeat;
+        background-size: 750px ;
+    
+
+}
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+#dog {
+    margin-left: 520px;
+    
+    
+}
+
+#farmers {
+    margin-left : 50px;
+}
+
+#hens, #fence {
+    height: 50px;
+    width: 50px;
+    
+}
+#back {
+    width: 25px;
+    height:35px;
+}
+
+#cover {
+    width:1000px;
+    height:300px;
+    
+}
+#btn {
+    border: 1;
+    border-color: yellowgreen;
+    background-color: rgba(181, 236, 236, 0.43);
+    width:100px;
+    height:25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+    </style>
+        
+    
+    
+
+
+    
 </html>

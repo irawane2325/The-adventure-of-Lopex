@@ -4,23 +4,209 @@
     <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';"> -->
  
     <title>Build Fence</title>
-    <link rel="stylesheet" types = "css" href="/css/style.css"> 
+   <!-- <link rel="stylesheet" type="css/text" href="/build.css"> -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
 </head>
-<h1>Building Fence for the Chickens</h1>
-<body>
-    <p>
-        "You are here because you've made the choice to build fences around<br>
-        the chicken homes. Lesson learnt and you've taken action. <br>
-        But what must you do now to make sure Lopex doesn't repeat<br>
-        his actions?""
-    </p>
-    Choice 1: Discipline the dog <br>
+<h1>
+        Building Fence for the Chickens
+    
+    </h1>
+<img src="fence.png" alt="white dog" id="dog"></img>
+<img src="farmers.png" alt="Farmers" id="farmers"></img>
 
-    Choice 2: Make sure there is Food.<br>
 
-    <a href = "/home">GO BACK</a>
+<table>
+<thead id="tableHead" > 
+    <h1>
+<tr>
+    <td id="page">
+        Page 2
+   
+    
+    </td>
+
+</thead>
+    <td>
+            <p>
+                    "You are here because you've made the choice to build fences around<br>
+                    the chicken homes. Lesson learnt and you've taken action. <br>
+                    But what must you do now to make sure Lopex doesn't repeat<br>
+                    his actions?""
+                </p>
+               
+    </td>
+    
+   
+</tr>
+<main>
+       
+        
+                        
+                             <h4 id="choice"> <img src = "train.jpg" alt="Train the dog" id="hens"></img>
+                                <label>
+                                <i><strong></strong> Train him</strong> </i>
+                
+                        </label>
+                                
+                                <a href="/discipline">  <input type="button" value="Choice: 1" id = "btn"/></a><br>
+                           
+                                 </h4>
+                                     <h4 id = "build"> <img src = "dogFood.jpg" alt="dogs fOOD" id="fence"></img>
+                                        <label>
+                                                <i><strong></strong>Feed Him</strong> </i>
+                                        </label>
+                                        <a href="/food">  <input type="button" value="Choice: 2" id = "btn"/></a>
+                                             
+                         
+                                     </h4>
+                                     <a href = "/home"><img src = "back.png" alt="back to home" id="back"></img></a>
+                     
+
+       
+                                    </main>
+
+   
 </body>
 
 
+<style>
+     h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: gold;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top: 1px;
+        
+        
+    }
+    
+    p { 
+        font-style: italic;
+        box-shadow: 0 6px 12px 0 rgba(54, 51, 51, 0.2); /* this adds the "card" effect */
+        border-bottom-left-radius: 10px;
+        height: 250px;
+        width:210px;
+        margin-left:-100px;
+        margin-top:-250px;
+        padding-left: 25px;
+        padding-right:25px;
+       
+        
+    }
+    
+    
+    
+    #page {
+        padding-top: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+        color:burlywood;
+        font-size: 9px;
+        padding-left: 400px;
+    }
+    
+ 
+    
+   
+    table {
+        
+        border:5;
+        border-color:rgba(185, 163, 34, 0.46);
+        color: brown;
+        text-align: left; 
+        margin-left: 500px;
+        margin-top: 50px;   
+        height:350px;
+        width:400px;
+        
+       
+       
+        
+    }
+    
+    #choice {
+        padding-top: 18px;
+        text-align: left;
+        padding-left: 5px;
+        padding-bottom: 5px;
+    }
+    
+    #build {
+        text-align: left;
+        padding-top:5px;
+        padding-left: 5px;
+        text-align: left;
+        
+    
+    }
+    a {
+        margin-left: 35px;
+    }
+    
+    main {
+        display: block;
+        border-color:rgba(185, 163, 34, 0.46);
+        color: brown;
+        text-align: center; 
+        height:100px;
+        width:250px;
+        margin-left:680px;
+        margin-top: 50px;
+        
+       
+        
+       
+    
+    }
+    
+    body {
+        background-color: rgba(247, 237, 205, 0.13);
+        background-image: url('bookPage.jpg');
+        background-position-x: 300px;
+        background-position-y: 100px;
+        background-repeat: no-repeat;
+        background-size: 750px ;
+    
+    }
+
+    img {
+        height: 55px;
+        width: 55px;
+        border-radius: 20px;
+       
+        
+    }
+    #dog {
+        margin-left: 520px;
+        
+        
+    }
+    
+    #farmers {
+        margin-left : 50px;
+    }
+    
+    #hens, #fence {
+        height: 100px;
+        width: 100px;
+        
+    }
+#back {
+    width: 25px;
+    height:35px;
+}
+
+#btn {
+    border: 1;
+    border-color: yellowgreen;
+    background-color: rgba(181, 236, 236, 0.43);
+    width:100px;
+    height:25px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left:65px;
+}
+
+
+</style>
 
 </html>
